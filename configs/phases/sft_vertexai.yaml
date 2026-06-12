@@ -1,0 +1,14 @@
+phase: "sft"
+approach: "sft"
+prompt_strategy: "zero_shot"
+max_seq_length: 4096
+
+dataset_source: "local"
+dataset_split: "mivia_test"
+subset_fraction: 1.0
+limit: 0
+
+save_every_n: 10
+save_raw_outputs: true
+
+output_dir: "/tmp/results"

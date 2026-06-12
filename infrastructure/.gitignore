@@ -1,0 +1,16 @@
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfstate.*.backup
+.terraform.lock.hcl
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+*.auto.tfvars
+tfplan
+
+# Real variable values (contains the project id); commit terraform.tfvars.example instead
+terraform.tfvars

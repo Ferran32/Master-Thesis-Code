@@ -1,0 +1,8 @@
+# Qwen3.6-27B uses a hybrid linear-attention architecture (Gated DeltaNet +
+# Gated Attention) that is only implemented in recent transformers releases.
+# This file reuses the base pins and overrides the model-runtime stack.
+-r requirements.txt
+
+transformers>=4.57.0
+tokenizers>=0.21.0
+accelerate>=1.0.0

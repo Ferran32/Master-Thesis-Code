@@ -1,0 +1,16 @@
+# Phase 4: Agent skill evaluation — Vertex AI Custom Job variant.
+# One job per (model, skill version) pair. Skill file downloaded from GCS.
+# Results written to /tmp/results then uploaded to GCS.
+phase: "skill"
+approach: "skill"
+prompt_strategy: "skill"
+
+dataset_source: "local"
+dataset_split: "val"
+subset_fraction: 1.0
+limit: 100
+
+save_every_n: 10
+save_raw_outputs: true
+
+output_dir: "/tmp/results"
