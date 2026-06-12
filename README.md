@@ -31,7 +31,7 @@ The data is **not committed** to this repository. The pipeline downloads the thr
 
 The merge is partitioned into a **project-disjoint 80/10/10 split** (no project appears in more than one split). Each vuln-fix pair expands into two labelled rows. Resulting sizes: Train 45,964 / Val 11,372 / Test 4,911 rows.
 
-A private benchmark, **MVFSC** (`ferran-solanes/MIVIA` on HuggingFace), is used as an independent evaluation set: 972 functions in the source paper, 872 after preprocessing (436 vulnerable / 436 non-vulnerable). Access requires an `HF_TOKEN` (see Setup).
+The independent evaluation benchmark is the **MVFSC** test set (MIVIA Vulnerable Function Source Code) introduced by Carletti et al. (ARES 2025, DOI 10.1007/978-3-032-00644-8_8): 972 functions in the source paper, 872 after SHA-1 deduplication (439 vulnerable / 433 non-vulnerable). The exact files used here, with full provenance and citation, are included at [`data/mvfsc/`](data/mvfsc/) under GPL-3.0. The pipeline loads it by default from the HuggingFace mirror `ferran-solanes/MIVIA`, which requires an `HF_TOKEN` (see Setup).
 
 Splits are deterministic (`seed=42`), so anyone with dataset access can rebuild them exactly with `python -m src.data_utils`.
 
