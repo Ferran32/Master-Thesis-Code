@@ -1,12 +1,12 @@
 # Master Thesis — LLM-Based Vulnerability Detection
 
-Experiment code for a master thesis comparing three approaches to automated source-code vulnerability detection with Large Language Models. All three are evaluated on the **same project-disjoint test set**, with the **same four models**, identical prompt structure, and identical inference configuration:
+Experiment code for a master thesis comparing three approaches to automated source-code vulnerability detection with Large Language Models. All three are evaluated on the **same test set**, with the **same four models**, identical prompt structure, and identical inference configuration. The test set is deduplicated against training/validation at the exact-snippet (SHA-1) level, not held out by project: 18 of its 31 distinct projects also appear by name in the training/validation corpus (see the thesis's project-overlap audit, §4.3.2).
 
 1. **Base LLM Evaluation** — zero-shot, few-shot (k=1, 3), and Chain-of-Thought prompting
 2. **Supervised Fine-Tuning (SFT)** — QLoRA parameter-efficient fine-tuning
 3. **Agent Skill Optimization** — a skill prompt iteratively refined on the validation set; at inference it is a static prompt prefix (no tool calls)
 
-A combined-method matrix (SFT + skill + few-shot) is also evaluated. Experiments run as Vertex AI Custom Jobs on GCP, one job per model × strategy, in parallel.
+A **combined-method matrix** (SFT + skill + few-shot) is also implemented in this repository (`scripts/submit_vertexai_combo.py`) and jobs were run, but it is **not evaluated or reported in the thesis** — treat any combo results under `results/combo/` as exploratory, not thesis findings. Experiments run as Vertex AI Custom Jobs on GCP, one job per model × strategy, in parallel.
 
 ## Models
 
@@ -29,9 +29,9 @@ The data is **not committed** to this repository. The pipeline downloads the thr
 | MegaVul | `hitoshura25/megavul` |
 | CVEfixes | `hitoshura25/cvefixes` |
 
-The merge is partitioned into a **project-disjoint 80/10/10 split** (no project appears in more than one split). Each vuln-fix pair expands into two labelled rows. Resulting sizes: Train 45,964 / Val 11,372 / Test 4,911 rows.
+The merge is partitioned into a **project-disjoint 80/10/10 split** (no project appears in more than one of train/val/test). Each vuln-fix pair expands into two labelled rows. Resulting sizes: Train 45,964 / Val 11,299 / Test 4,911 rows.
 
-The independent evaluation benchmark is the **MVFSC** test set (MIVIA Vulnerable Function Source Code) introduced by Carletti et al. (ARES 2025, DOI 10.1007/978-3-032-00644-8_8): 972 functions in the source paper, 872 after SHA-1 deduplication (439 vulnerable / 433 non-vulnerable). The exact files used here, with full provenance and citation, are included at [`data/mvfsc/`](data/mvfsc/) under GPL-3.0. The pipeline loads it by default from the HuggingFace mirror `ferran-solanes/MIVIA`, which requires an `HF_TOKEN` (see Setup).
+The independent evaluation benchmark — the one the thesis actually reports results on — is the **MVFSC** test set (MIVIA Vulnerable Function Source Code) introduced by Carletti et al. (ARES 2025, DOI 10.1007/978-3-032-00644-8_8): 972 functions in the source paper, 872 after SHA-1 deduplication (439 vulnerable / 433 non-vulnerable). It is deduplicated against train/val at the exact-snippet (SHA-1) level only, not by project: 18 of its 31 distinct projects (by name) also appear in the training/validation corpus. **This repository loads it from the private HuggingFace mirror `ferran-solanes/MIVIA` (requires `HF_TOKEN`, see Setup) and caches the processed result at `data/splits/mivia_test/`; no raw copy is committed at `data/mvfsc/` in this repository as currently checked out** (see Task 4 note in `analysis/statistics/REPORT_examiner_round2.md` — the thesis text's claim that the exact file is committed under `data/mvfsc/` does not match the code or working tree and needs to be corrected on the thesis side, not the README side).
 
 Splits are deterministic (`seed=42`), so anyone with dataset access can rebuild them exactly with `python -m src.data_utils`.
 
@@ -90,7 +90,7 @@ python scripts/submit_vertexai_phase1.py \
 
 ### Phase 2 — Supervised Fine-Tuning
 
-Train QLoRA adapters, then evaluate on the held-out, project-disjoint test split.
+Train QLoRA adapters, then evaluate on the MVFSC test set (snippet-deduplicated against train/val, not project-disjoint from it — see Datasets above).
 
 ```bash
 python scripts/submit_vertexai_phase2.py \
@@ -119,7 +119,7 @@ python scripts/submit_vertexai_combo.py --combos skill_few_shot sft_few_shot tri
 ### Retrieve results & aggregate
 
 ```bash
-gsutil -m cp -r "gs://$GCS_RESULTS_BUCKET/" results/runs/
+gsutil -m cp -r gs://ferrans-thesis-results/ results/runs/
 python scripts/aggregate_results.py --phase base-eval --results-dir results/   # or: sft | skill | combo
 python -m src.pipeline.export --results-dir results/runs
 ```
