@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+*.so
+
+# Virtual environments
+.venv/
+.venv313/
+venv/
+pyvenv.cfg
+bin/
+include/
+lib/
+lib64
+
+# IDE / editor
+.cursor/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+CLAUDE.md
+.claude/
+
+# Environment secrets
+.env
+.env.*
+
+# Hugging Face cache
+.hf_cache/
+
+# Data & model artefacts (large / generated)
+data/raw/
+data/splits/
+models/hub/
+models/sft/
+
+# Results & logs
+results/
+reports/
+results.tsv
+run.log
+
+# Statistical-analysis outputs are small, committed deliverables (thesis
+# Data Availability points at analysis/statistics for both scripts and
+# outputs), not generated run artefacts like results/ above.
+!analysis/statistics/results/
+!analysis/statistics/results/**
+
+# Logs directory: keep the skill-refinement changelog, drop run diagnostics
+logs/*
+!logs/CHANGELOG.md
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+
+# Thesis document (lives on disk / Overleaf, not in the code repo)
+Master_Thesis_LaTeX/
+Master_Thesis_Experimental/
+canvas-docs/
+
+# Internal planning notes (agent-maintained, not part of the code release)
+PLAN.md

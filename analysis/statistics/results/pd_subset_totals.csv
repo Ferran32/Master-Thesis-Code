@@ -1,0 +1,3 @@
+subset,n_functions,n_vulnerable,n_nonvulnerable,base_rate
+disjoint,195,98,97,0.5025641025641026
+shared,677,341,336,0.5036927621861153

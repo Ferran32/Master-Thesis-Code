@@ -1,0 +1,128 @@
+{
+  "mvfsc_skipped_short": 0,
+  "train_skipped_short": 1274,
+  "val_skipped_short": 334,
+  "n_mvfsc_scored": 872,
+  "n_overlap_projects": 18,
+  "overlap_projects": [
+    "contiki-ng",
+    "ffmpeg",
+    "gnutls",
+    "gpac",
+    "harfbuzz",
+    "jasper",
+    "libarchive",
+    "libmobi",
+    "lua",
+    "mruby",
+    "opencv",
+    "openssh",
+    "redis",
+    "squid",
+    "tensorflow",
+    "vim",
+    "wireshark",
+    "yara"
+  ],
+  "sanity_check": {
+    "n_exact_jaccard_1.0": 2,
+    "cases": [
+      {
+        "mvfsc_pos": 405,
+        "split": "train",
+        "corpus_pos": 35491,
+        "jaccard": 1.0,
+        "same_label": true,
+        "same_sha1": false,
+        "mvfsc_label": 1,
+        "mvfsc_project": "Qt",
+        "corpus_label": 1,
+        "corpus_project": "1ca02cf2879a5e1511a2f2109f0925cf4c892862"
+      },
+      {
+        "mvfsc_pos": 702,
+        "split": "train",
+        "corpus_pos": 33724,
+        "jaccard": 1.0,
+        "same_label": false,
+        "same_sha1": false,
+        "mvfsc_label": 0,
+        "mvfsc_project": "tensorflow",
+        "corpus_label": 1,
+        "corpus_project": "7e5f9fbf9aaa3540aab35e7504036855b23dcf60"
+      }
+    ],
+    "expected": 0,
+    "pass": false
+  },
+  "counts_by_threshold": [
+    {
+      "threshold": 0.7,
+      "n_flagged": 185,
+      "share_of_872": 0.2121559633027523,
+      "n_from_train": 145,
+      "n_from_val": 40,
+      "n_mvfsc_label_vuln": 91,
+      "n_mvfsc_label_nonvuln": 94,
+      "n_same_label_as_match": 130,
+      "n_opposite_label_as_match": 55,
+      "n_in_18_overlap_projects": 154
+    },
+    {
+      "threshold": 0.8,
+      "n_flagged": 167,
+      "share_of_872": 0.1915137614678899,
+      "n_from_train": 132,
+      "n_from_val": 35,
+      "n_mvfsc_label_vuln": 83,
+      "n_mvfsc_label_nonvuln": 84,
+      "n_same_label_as_match": 118,
+      "n_opposite_label_as_match": 49,
+      "n_in_18_overlap_projects": 139
+    },
+    {
+      "threshold": 0.9,
+      "n_flagged": 129,
+      "share_of_872": 0.14793577981651376,
+      "n_from_train": 102,
+      "n_from_val": 27,
+      "n_mvfsc_label_vuln": 63,
+      "n_mvfsc_label_nonvuln": 66,
+      "n_same_label_as_match": 95,
+      "n_opposite_label_as_match": 34,
+      "n_in_18_overlap_projects": 105
+    }
+  ],
+  "jaccard_distribution": [
+    {
+      "cutoff": 0.5,
+      "n_at_or_above": 217,
+      "share_of_872": 0.24885321100917432,
+      "share_of_scored": 0.24885321100917432
+    },
+    {
+      "cutoff": 0.6,
+      "n_at_or_above": 204,
+      "share_of_872": 0.23394495412844038,
+      "share_of_scored": 0.23394495412844038
+    },
+    {
+      "cutoff": 0.7,
+      "n_at_or_above": 185,
+      "share_of_872": 0.2121559633027523,
+      "share_of_scored": 0.2121559633027523
+    },
+    {
+      "cutoff": 0.8,
+      "n_at_or_above": 167,
+      "share_of_872": 0.1915137614678899,
+      "share_of_scored": 0.1915137614678899
+    },
+    {
+      "cutoff": 0.9,
+      "n_at_or_above": 129,
+      "share_of_872": 0.14793577981651376,
+      "share_of_scored": 0.14793577981651376
+    }
+  ]
+}

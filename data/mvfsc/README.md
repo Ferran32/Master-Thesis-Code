@@ -1,7 +1,11 @@
 # MVFSC test set
 
 This directory contains the **MIVIA Vulnerable Function Source Code (MVFSC)** test
-set, the project-disjoint benchmark used for all evaluation in this thesis.
+set, the independent evaluation benchmark used for all evaluation in this thesis.
+MVFSC was built by its own authors to be project-disjoint from *their* training
+data; relative to this thesis's training corpus, 18 of its 31 distinct projects
+(by name) are also present in the training/validation split, so here it is a
+snippet-deduplicated (exact SHA-1) benchmark rather than a project-disjoint one.
 
 ## Source
 
@@ -29,7 +33,7 @@ projects disjoint from the usual training distributions.
 
 ## Provenance and how the processed set was derived
 
-The upstream file `mvfsc_test_set.xlsx` was obtained on 9 April from the authors'
+The upstream file `mvfsc_test_set.xlsx` was obtained on 9 April 2026 from the authors'
 companion repository, distributed during double-blind review through the
 [Anonymous GitHub](https://anonymous.4open.science) proxy
 (`anonymous.4open.science/r/code_analysis-cftb`). That proxy is ephemeral; the

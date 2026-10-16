@@ -1,0 +1,7 @@
+{
+  "n_disjoint_flagged_t0.7": 31,
+  "n_disjoint_flagged_t0.8": 28,
+  "n_disjoint_flagged_t0.9": 24,
+  "n_disjoint_total": 195,
+  "source": "analysis/statistics/results/nd_best_match_per_row.csv"
+}

@@ -1,0 +1,24 @@
+{
+  "v9_vs_fewshot3": {
+    "paired_f2_diff": 0.04615773113704108,
+    "paired_f2_ci": [
+      0.005900691397762932,
+      0.08762507488817842
+    ],
+    "mcnemar_b": 98,
+    "mcnemar_c": 96,
+    "mcnemar_p": 0.9427889997065577,
+    "mcnemar_p_holm": 1.0
+  },
+  "v9_vs_sft": {
+    "paired_f2_diff": 0.1385462768144332,
+    "paired_f2_ci": [
+      0.07465396436572679,
+      0.20588485103706233
+    ],
+    "mcnemar_b": 210,
+    "mcnemar_c": 202,
+    "mcnemar_p": 0.7302420684255303,
+    "mcnemar_p_holm": 1.0
+  }
+}

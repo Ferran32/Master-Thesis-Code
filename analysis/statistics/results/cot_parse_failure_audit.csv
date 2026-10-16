@@ -1,0 +1,5 @@
+model,model_display,n_parse_failures_cot,n_near_512_cap_proxy,max_raw_output_tokens
+llama3-8b,Llama 3 8B Instruct,2,1,512
+qwen2.5-7b,Qwen2.5 7B Instruct,2,2,512
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,9,6,535
+codellama-7b,Code Llama 7B Instruct,28,15,511

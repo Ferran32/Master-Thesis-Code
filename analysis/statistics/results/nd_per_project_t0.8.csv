@@ -1,0 +1,17 @@
+threshold,project,n_flagged
+0.8,Contiki-NG,10
+0.8,LUA,2
+0.8,OpenCV,2
+0.8,OpenSSH,12
+0.8,Redis,2
+0.8,TensorFlow,22
+0.8,Tensorflow,5
+0.8,ffmpeg,8
+0.8,gpac,6
+0.8,libarchive,15
+0.8,mruby,2
+0.8,squid,1
+0.8,tensorflow,14
+0.8,vim,16
+0.8,wireshark,20
+0.8,yara,2

@@ -1,0 +1,4 @@
+threshold,n_flagged,share_of_872,n_from_train,n_from_val,n_mvfsc_label_vuln,n_mvfsc_label_nonvuln,n_same_label_as_match,n_opposite_label_as_match,n_in_18_overlap_projects
+0.7,185,0.2121559633027523,145,40,91,94,130,55,154
+0.8,167,0.1915137614678899,132,35,83,84,118,49,139
+0.9,129,0.14793577981651376,102,27,63,66,95,34,105

@@ -1,0 +1,309 @@
+model,model_display,config,config_display,cwe_class,n,tp,fn,recall
+llama3-8b,Llama 3 8B Instruct,zero_shot,zero-shot,CWE-119,90,32,58,0.35555555555555557
+llama3-8b,Llama 3 8B Instruct,zero_shot,zero-shot,CWE-125,60,23,37,0.38333333333333336
+llama3-8b,Llama 3 8B Instruct,zero_shot,zero-shot,CWE-190,32,6,26,0.1875
+llama3-8b,Llama 3 8B Instruct,zero_shot,zero-shot,CWE-369,9,1,8,0.1111111111111111
+llama3-8b,Llama 3 8B Instruct,zero_shot,zero-shot,CWE-617,21,2,19,0.09523809523809523
+llama3-8b,Llama 3 8B Instruct,zero_shot,zero-shot,CWE-664,30,4,26,0.13333333333333333
+llama3-8b,Llama 3 8B Instruct,zero_shot,zero-shot,CWE-691,32,10,22,0.3125
+llama3-8b,Llama 3 8B Instruct,zero_shot,zero-shot,CWE-707,17,0,17,0.0
+llama3-8b,Llama 3 8B Instruct,zero_shot,zero-shot,CWE-754,57,11,46,0.19298245614035087
+llama3-8b,Llama 3 8B Instruct,zero_shot,zero-shot,CWE-787,67,31,36,0.4626865671641791
+llama3-8b,Llama 3 8B Instruct,zero_shot,zero-shot,Others,24,5,19,0.20833333333333334
+llama3-8b,Llama 3 8B Instruct,few_shot_1shot,few-shot k=1,CWE-119,90,21,69,0.23333333333333334
+llama3-8b,Llama 3 8B Instruct,few_shot_1shot,few-shot k=1,CWE-125,60,19,41,0.31666666666666665
+llama3-8b,Llama 3 8B Instruct,few_shot_1shot,few-shot k=1,CWE-190,32,3,29,0.09375
+llama3-8b,Llama 3 8B Instruct,few_shot_1shot,few-shot k=1,CWE-369,9,0,9,0.0
+llama3-8b,Llama 3 8B Instruct,few_shot_1shot,few-shot k=1,CWE-617,21,1,20,0.047619047619047616
+llama3-8b,Llama 3 8B Instruct,few_shot_1shot,few-shot k=1,CWE-664,30,5,25,0.16666666666666666
+llama3-8b,Llama 3 8B Instruct,few_shot_1shot,few-shot k=1,CWE-691,32,3,29,0.09375
+llama3-8b,Llama 3 8B Instruct,few_shot_1shot,few-shot k=1,CWE-707,17,1,16,0.058823529411764705
+llama3-8b,Llama 3 8B Instruct,few_shot_1shot,few-shot k=1,CWE-754,57,5,52,0.08771929824561403
+llama3-8b,Llama 3 8B Instruct,few_shot_1shot,few-shot k=1,CWE-787,67,22,45,0.3283582089552239
+llama3-8b,Llama 3 8B Instruct,few_shot_1shot,few-shot k=1,Others,24,6,18,0.25
+llama3-8b,Llama 3 8B Instruct,few_shot_3shot,few-shot k=3,CWE-119,90,36,54,0.4
+llama3-8b,Llama 3 8B Instruct,few_shot_3shot,few-shot k=3,CWE-125,60,33,27,0.55
+llama3-8b,Llama 3 8B Instruct,few_shot_3shot,few-shot k=3,CWE-190,32,11,21,0.34375
+llama3-8b,Llama 3 8B Instruct,few_shot_3shot,few-shot k=3,CWE-369,9,1,8,0.1111111111111111
+llama3-8b,Llama 3 8B Instruct,few_shot_3shot,few-shot k=3,CWE-617,21,3,18,0.14285714285714285
+llama3-8b,Llama 3 8B Instruct,few_shot_3shot,few-shot k=3,CWE-664,30,9,21,0.3
+llama3-8b,Llama 3 8B Instruct,few_shot_3shot,few-shot k=3,CWE-691,32,16,16,0.5
+llama3-8b,Llama 3 8B Instruct,few_shot_3shot,few-shot k=3,CWE-707,17,0,17,0.0
+llama3-8b,Llama 3 8B Instruct,few_shot_3shot,few-shot k=3,CWE-754,57,18,39,0.3157894736842105
+llama3-8b,Llama 3 8B Instruct,few_shot_3shot,few-shot k=3,CWE-787,67,39,28,0.582089552238806
+llama3-8b,Llama 3 8B Instruct,few_shot_3shot,few-shot k=3,Others,24,9,15,0.375
+llama3-8b,Llama 3 8B Instruct,cot,CoT,CWE-119,90,29,61,0.32222222222222224
+llama3-8b,Llama 3 8B Instruct,cot,CoT,CWE-125,60,32,28,0.5333333333333333
+llama3-8b,Llama 3 8B Instruct,cot,CoT,CWE-190,32,7,25,0.21875
+llama3-8b,Llama 3 8B Instruct,cot,CoT,CWE-369,9,0,9,0.0
+llama3-8b,Llama 3 8B Instruct,cot,CoT,CWE-617,21,2,19,0.09523809523809523
+llama3-8b,Llama 3 8B Instruct,cot,CoT,CWE-664,30,9,21,0.3
+llama3-8b,Llama 3 8B Instruct,cot,CoT,CWE-691,32,14,18,0.4375
+llama3-8b,Llama 3 8B Instruct,cot,CoT,CWE-707,17,1,16,0.058823529411764705
+llama3-8b,Llama 3 8B Instruct,cot,CoT,CWE-754,57,12,45,0.21052631578947367
+llama3-8b,Llama 3 8B Instruct,cot,CoT,CWE-787,67,37,30,0.5522388059701493
+llama3-8b,Llama 3 8B Instruct,cot,CoT,Others,24,8,16,0.3333333333333333
+llama3-8b,Llama 3 8B Instruct,sft,SFT,CWE-119,90,26,64,0.28888888888888886
+llama3-8b,Llama 3 8B Instruct,sft,SFT,CWE-125,60,19,41,0.31666666666666665
+llama3-8b,Llama 3 8B Instruct,sft,SFT,CWE-190,32,13,19,0.40625
+llama3-8b,Llama 3 8B Instruct,sft,SFT,CWE-369,9,0,9,0.0
+llama3-8b,Llama 3 8B Instruct,sft,SFT,CWE-617,21,2,19,0.09523809523809523
+llama3-8b,Llama 3 8B Instruct,sft,SFT,CWE-664,30,8,22,0.26666666666666666
+llama3-8b,Llama 3 8B Instruct,sft,SFT,CWE-691,32,10,22,0.3125
+llama3-8b,Llama 3 8B Instruct,sft,SFT,CWE-707,17,6,11,0.35294117647058826
+llama3-8b,Llama 3 8B Instruct,sft,SFT,CWE-754,57,15,42,0.2631578947368421
+llama3-8b,Llama 3 8B Instruct,sft,SFT,CWE-787,67,22,45,0.3283582089552239
+llama3-8b,Llama 3 8B Instruct,sft,SFT,Others,24,9,15,0.375
+llama3-8b,Llama 3 8B Instruct,skill_v9,skill v9,CWE-119,90,39,51,0.43333333333333335
+llama3-8b,Llama 3 8B Instruct,skill_v9,skill v9,CWE-125,60,34,26,0.5666666666666667
+llama3-8b,Llama 3 8B Instruct,skill_v9,skill v9,CWE-190,32,11,21,0.34375
+llama3-8b,Llama 3 8B Instruct,skill_v9,skill v9,CWE-369,9,1,8,0.1111111111111111
+llama3-8b,Llama 3 8B Instruct,skill_v9,skill v9,CWE-617,21,4,17,0.19047619047619047
+llama3-8b,Llama 3 8B Instruct,skill_v9,skill v9,CWE-664,30,11,19,0.36666666666666664
+llama3-8b,Llama 3 8B Instruct,skill_v9,skill v9,CWE-691,32,17,15,0.53125
+llama3-8b,Llama 3 8B Instruct,skill_v9,skill v9,CWE-707,17,3,14,0.17647058823529413
+llama3-8b,Llama 3 8B Instruct,skill_v9,skill v9,CWE-754,57,23,34,0.40350877192982454
+llama3-8b,Llama 3 8B Instruct,skill_v9,skill v9,CWE-787,67,45,22,0.6716417910447762
+llama3-8b,Llama 3 8B Instruct,skill_v9,skill v9,Others,24,11,13,0.4583333333333333
+llama3-8b,Llama 3 8B Instruct,skill_v6,skill v6,CWE-119,90,43,47,0.4777777777777778
+llama3-8b,Llama 3 8B Instruct,skill_v6,skill v6,CWE-125,60,35,25,0.5833333333333334
+llama3-8b,Llama 3 8B Instruct,skill_v6,skill v6,CWE-190,32,12,20,0.375
+llama3-8b,Llama 3 8B Instruct,skill_v6,skill v6,CWE-369,9,1,8,0.1111111111111111
+llama3-8b,Llama 3 8B Instruct,skill_v6,skill v6,CWE-617,21,3,18,0.14285714285714285
+llama3-8b,Llama 3 8B Instruct,skill_v6,skill v6,CWE-664,30,11,19,0.36666666666666664
+llama3-8b,Llama 3 8B Instruct,skill_v6,skill v6,CWE-691,32,14,18,0.4375
+llama3-8b,Llama 3 8B Instruct,skill_v6,skill v6,CWE-707,17,3,14,0.17647058823529413
+llama3-8b,Llama 3 8B Instruct,skill_v6,skill v6,CWE-754,57,21,36,0.3684210526315789
+llama3-8b,Llama 3 8B Instruct,skill_v6,skill v6,CWE-787,67,45,22,0.6716417910447762
+llama3-8b,Llama 3 8B Instruct,skill_v6,skill v6,Others,24,12,12,0.5
+qwen2.5-7b,Qwen2.5 7B Instruct,zero_shot,zero-shot,CWE-119,90,1,89,0.011111111111111112
+qwen2.5-7b,Qwen2.5 7B Instruct,zero_shot,zero-shot,CWE-125,60,0,60,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,zero_shot,zero-shot,CWE-190,32,0,32,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,zero_shot,zero-shot,CWE-369,9,0,9,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,zero_shot,zero-shot,CWE-617,21,0,21,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,zero_shot,zero-shot,CWE-664,30,0,30,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,zero_shot,zero-shot,CWE-691,32,0,32,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,zero_shot,zero-shot,CWE-707,17,0,17,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,zero_shot,zero-shot,CWE-754,57,0,57,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,zero_shot,zero-shot,CWE-787,67,0,67,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,zero_shot,zero-shot,Others,24,0,24,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_1shot,few-shot k=1,CWE-119,90,5,85,0.05555555555555555
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_1shot,few-shot k=1,CWE-125,60,4,56,0.06666666666666667
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_1shot,few-shot k=1,CWE-190,32,1,31,0.03125
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_1shot,few-shot k=1,CWE-369,9,0,9,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_1shot,few-shot k=1,CWE-617,21,0,21,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_1shot,few-shot k=1,CWE-664,30,0,30,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_1shot,few-shot k=1,CWE-691,32,0,32,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_1shot,few-shot k=1,CWE-707,17,1,16,0.058823529411764705
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_1shot,few-shot k=1,CWE-754,57,2,55,0.03508771929824561
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_1shot,few-shot k=1,CWE-787,67,2,65,0.029850746268656716
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_1shot,few-shot k=1,Others,24,1,23,0.041666666666666664
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_3shot,few-shot k=3,CWE-119,90,8,82,0.08888888888888889
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_3shot,few-shot k=3,CWE-125,60,11,49,0.18333333333333332
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_3shot,few-shot k=3,CWE-190,32,4,28,0.125
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_3shot,few-shot k=3,CWE-369,9,0,9,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_3shot,few-shot k=3,CWE-617,21,1,20,0.047619047619047616
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_3shot,few-shot k=3,CWE-664,30,2,28,0.06666666666666667
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_3shot,few-shot k=3,CWE-691,32,1,31,0.03125
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_3shot,few-shot k=3,CWE-707,17,1,16,0.058823529411764705
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_3shot,few-shot k=3,CWE-754,57,5,52,0.08771929824561403
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_3shot,few-shot k=3,CWE-787,67,11,56,0.16417910447761194
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_3shot,few-shot k=3,Others,24,2,22,0.08333333333333333
+qwen2.5-7b,Qwen2.5 7B Instruct,cot,CoT,CWE-119,90,2,88,0.022222222222222223
+qwen2.5-7b,Qwen2.5 7B Instruct,cot,CoT,CWE-125,60,1,59,0.016666666666666666
+qwen2.5-7b,Qwen2.5 7B Instruct,cot,CoT,CWE-190,32,0,32,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,cot,CoT,CWE-369,9,0,9,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,cot,CoT,CWE-617,21,0,21,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,cot,CoT,CWE-664,30,0,30,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,cot,CoT,CWE-691,32,0,32,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,cot,CoT,CWE-707,17,0,17,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,cot,CoT,CWE-754,57,1,56,0.017543859649122806
+qwen2.5-7b,Qwen2.5 7B Instruct,cot,CoT,CWE-787,67,1,66,0.014925373134328358
+qwen2.5-7b,Qwen2.5 7B Instruct,cot,CoT,Others,24,0,24,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,sft,SFT,CWE-119,90,36,54,0.4
+qwen2.5-7b,Qwen2.5 7B Instruct,sft,SFT,CWE-125,60,16,44,0.26666666666666666
+qwen2.5-7b,Qwen2.5 7B Instruct,sft,SFT,CWE-190,32,14,18,0.4375
+qwen2.5-7b,Qwen2.5 7B Instruct,sft,SFT,CWE-369,9,5,4,0.5555555555555556
+qwen2.5-7b,Qwen2.5 7B Instruct,sft,SFT,CWE-617,21,9,12,0.42857142857142855
+qwen2.5-7b,Qwen2.5 7B Instruct,sft,SFT,CWE-664,30,8,22,0.26666666666666666
+qwen2.5-7b,Qwen2.5 7B Instruct,sft,SFT,CWE-691,32,6,26,0.1875
+qwen2.5-7b,Qwen2.5 7B Instruct,sft,SFT,CWE-707,17,10,7,0.5882352941176471
+qwen2.5-7b,Qwen2.5 7B Instruct,sft,SFT,CWE-754,57,26,31,0.45614035087719296
+qwen2.5-7b,Qwen2.5 7B Instruct,sft,SFT,CWE-787,67,18,49,0.26865671641791045
+qwen2.5-7b,Qwen2.5 7B Instruct,sft,SFT,Others,24,11,13,0.4583333333333333
+qwen2.5-7b,Qwen2.5 7B Instruct,skill_v9,skill v9,CWE-119,90,1,89,0.011111111111111112
+qwen2.5-7b,Qwen2.5 7B Instruct,skill_v9,skill v9,CWE-125,60,4,56,0.06666666666666667
+qwen2.5-7b,Qwen2.5 7B Instruct,skill_v9,skill v9,CWE-190,32,1,31,0.03125
+qwen2.5-7b,Qwen2.5 7B Instruct,skill_v9,skill v9,CWE-369,9,0,9,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,skill_v9,skill v9,CWE-617,21,1,20,0.047619047619047616
+qwen2.5-7b,Qwen2.5 7B Instruct,skill_v9,skill v9,CWE-664,30,1,29,0.03333333333333333
+qwen2.5-7b,Qwen2.5 7B Instruct,skill_v9,skill v9,CWE-691,32,0,32,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,skill_v9,skill v9,CWE-707,17,0,17,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,skill_v9,skill v9,CWE-754,57,2,55,0.03508771929824561
+qwen2.5-7b,Qwen2.5 7B Instruct,skill_v9,skill v9,CWE-787,67,5,62,0.07462686567164178
+qwen2.5-7b,Qwen2.5 7B Instruct,skill_v9,skill v9,Others,24,0,24,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,skill_v6,skill v6,CWE-119,90,1,89,0.011111111111111112
+qwen2.5-7b,Qwen2.5 7B Instruct,skill_v6,skill v6,CWE-125,60,3,57,0.05
+qwen2.5-7b,Qwen2.5 7B Instruct,skill_v6,skill v6,CWE-190,32,0,32,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,skill_v6,skill v6,CWE-369,9,0,9,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,skill_v6,skill v6,CWE-617,21,1,20,0.047619047619047616
+qwen2.5-7b,Qwen2.5 7B Instruct,skill_v6,skill v6,CWE-664,30,1,29,0.03333333333333333
+qwen2.5-7b,Qwen2.5 7B Instruct,skill_v6,skill v6,CWE-691,32,0,32,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,skill_v6,skill v6,CWE-707,17,0,17,0.0
+qwen2.5-7b,Qwen2.5 7B Instruct,skill_v6,skill v6,CWE-754,57,1,56,0.017543859649122806
+qwen2.5-7b,Qwen2.5 7B Instruct,skill_v6,skill v6,CWE-787,67,2,65,0.029850746268656716
+qwen2.5-7b,Qwen2.5 7B Instruct,skill_v6,skill v6,Others,24,1,23,0.041666666666666664
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,zero_shot,zero-shot,CWE-119,90,19,71,0.2111111111111111
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,zero_shot,zero-shot,CWE-125,60,7,53,0.11666666666666667
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,zero_shot,zero-shot,CWE-190,32,1,31,0.03125
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,zero_shot,zero-shot,CWE-369,9,0,9,0.0
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,zero_shot,zero-shot,CWE-617,21,1,20,0.047619047619047616
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,zero_shot,zero-shot,CWE-664,30,4,26,0.13333333333333333
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,zero_shot,zero-shot,CWE-691,32,3,29,0.09375
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,zero_shot,zero-shot,CWE-707,17,0,17,0.0
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,zero_shot,zero-shot,CWE-754,57,10,47,0.17543859649122806
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,zero_shot,zero-shot,CWE-787,67,9,58,0.13432835820895522
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,zero_shot,zero-shot,Others,24,3,21,0.125
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_1shot,few-shot k=1,CWE-119,90,65,25,0.7222222222222222
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_1shot,few-shot k=1,CWE-125,60,41,19,0.6833333333333333
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_1shot,few-shot k=1,CWE-190,32,18,14,0.5625
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_1shot,few-shot k=1,CWE-369,9,3,6,0.3333333333333333
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_1shot,few-shot k=1,CWE-617,21,10,11,0.47619047619047616
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_1shot,few-shot k=1,CWE-664,30,23,7,0.7666666666666667
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_1shot,few-shot k=1,CWE-691,32,19,13,0.59375
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_1shot,few-shot k=1,CWE-707,17,10,7,0.5882352941176471
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_1shot,few-shot k=1,CWE-754,57,38,19,0.6666666666666666
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_1shot,few-shot k=1,CWE-787,67,50,17,0.746268656716418
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_1shot,few-shot k=1,Others,24,17,7,0.7083333333333334
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_3shot,few-shot k=3,CWE-119,90,42,48,0.4666666666666667
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_3shot,few-shot k=3,CWE-125,60,35,25,0.5833333333333334
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_3shot,few-shot k=3,CWE-190,32,19,13,0.59375
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_3shot,few-shot k=3,CWE-369,9,1,8,0.1111111111111111
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_3shot,few-shot k=3,CWE-617,21,10,11,0.47619047619047616
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_3shot,few-shot k=3,CWE-664,30,21,9,0.7
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_3shot,few-shot k=3,CWE-691,32,22,10,0.6875
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_3shot,few-shot k=3,CWE-707,17,7,10,0.4117647058823529
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_3shot,few-shot k=3,CWE-754,57,31,26,0.543859649122807
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_3shot,few-shot k=3,CWE-787,67,47,20,0.7014925373134329
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_3shot,few-shot k=3,Others,24,11,13,0.4583333333333333
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,cot,CoT,CWE-119,90,27,63,0.3
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,cot,CoT,CWE-125,60,10,50,0.16666666666666666
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,cot,CoT,CWE-190,32,2,30,0.0625
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,cot,CoT,CWE-369,9,0,9,0.0
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,cot,CoT,CWE-617,21,2,19,0.09523809523809523
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,cot,CoT,CWE-664,30,6,24,0.2
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,cot,CoT,CWE-691,32,3,29,0.09375
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,cot,CoT,CWE-707,17,1,16,0.058823529411764705
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,cot,CoT,CWE-754,57,7,50,0.12280701754385964
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,cot,CoT,CWE-787,67,12,55,0.1791044776119403
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,cot,CoT,Others,24,6,18,0.25
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,sft,SFT,CWE-119,90,58,32,0.6444444444444445
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,sft,SFT,CWE-125,60,41,19,0.6833333333333333
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,sft,SFT,CWE-190,32,21,11,0.65625
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,sft,SFT,CWE-369,9,8,1,0.8888888888888888
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,sft,SFT,CWE-617,21,18,3,0.8571428571428571
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,sft,SFT,CWE-664,30,14,16,0.4666666666666667
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,sft,SFT,CWE-691,32,9,23,0.28125
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,sft,SFT,CWE-707,17,14,3,0.8235294117647058
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,sft,SFT,CWE-754,57,37,20,0.6491228070175439
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,sft,SFT,CWE-787,67,36,31,0.5373134328358209
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,sft,SFT,Others,24,17,7,0.7083333333333334
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,skill_v9,skill v9,CWE-119,90,39,51,0.43333333333333335
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,skill_v9,skill v9,CWE-125,60,32,28,0.5333333333333333
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,skill_v9,skill v9,CWE-190,32,11,21,0.34375
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,skill_v9,skill v9,CWE-369,9,1,8,0.1111111111111111
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,skill_v9,skill v9,CWE-617,21,3,18,0.14285714285714285
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,skill_v9,skill v9,CWE-664,30,16,14,0.5333333333333333
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,skill_v9,skill v9,CWE-691,32,14,18,0.4375
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,skill_v9,skill v9,CWE-707,17,5,12,0.29411764705882354
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,skill_v9,skill v9,CWE-754,57,21,36,0.3684210526315789
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,skill_v9,skill v9,CWE-787,67,31,36,0.4626865671641791
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,skill_v9,skill v9,Others,24,9,15,0.375
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,skill_v6,skill v6,CWE-119,90,33,57,0.36666666666666664
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,skill_v6,skill v6,CWE-125,60,22,38,0.36666666666666664
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,skill_v6,skill v6,CWE-190,32,5,27,0.15625
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,skill_v6,skill v6,CWE-369,9,0,9,0.0
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,skill_v6,skill v6,CWE-617,21,3,18,0.14285714285714285
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,skill_v6,skill v6,CWE-664,30,12,18,0.4
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,skill_v6,skill v6,CWE-691,32,11,21,0.34375
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,skill_v6,skill v6,CWE-707,17,3,14,0.17647058823529413
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,skill_v6,skill v6,CWE-754,57,14,43,0.24561403508771928
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,skill_v6,skill v6,CWE-787,67,24,43,0.3582089552238806
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,skill_v6,skill v6,Others,24,10,14,0.4166666666666667
+codellama-7b,Code Llama 7B Instruct,zero_shot,zero-shot,CWE-119,90,57,33,0.6333333333333333
+codellama-7b,Code Llama 7B Instruct,zero_shot,zero-shot,CWE-125,60,24,36,0.4
+codellama-7b,Code Llama 7B Instruct,zero_shot,zero-shot,CWE-190,32,18,14,0.5625
+codellama-7b,Code Llama 7B Instruct,zero_shot,zero-shot,CWE-369,9,4,5,0.4444444444444444
+codellama-7b,Code Llama 7B Instruct,zero_shot,zero-shot,CWE-617,21,11,10,0.5238095238095238
+codellama-7b,Code Llama 7B Instruct,zero_shot,zero-shot,CWE-664,30,17,13,0.5666666666666667
+codellama-7b,Code Llama 7B Instruct,zero_shot,zero-shot,CWE-691,32,13,19,0.40625
+codellama-7b,Code Llama 7B Instruct,zero_shot,zero-shot,CWE-707,17,9,8,0.5294117647058824
+codellama-7b,Code Llama 7B Instruct,zero_shot,zero-shot,CWE-754,57,24,33,0.42105263157894735
+codellama-7b,Code Llama 7B Instruct,zero_shot,zero-shot,CWE-787,67,32,35,0.47761194029850745
+codellama-7b,Code Llama 7B Instruct,zero_shot,zero-shot,Others,24,15,9,0.625
+codellama-7b,Code Llama 7B Instruct,few_shot_1shot,few-shot k=1,CWE-119,90,57,33,0.6333333333333333
+codellama-7b,Code Llama 7B Instruct,few_shot_1shot,few-shot k=1,CWE-125,60,43,17,0.7166666666666667
+codellama-7b,Code Llama 7B Instruct,few_shot_1shot,few-shot k=1,CWE-190,32,22,10,0.6875
+codellama-7b,Code Llama 7B Instruct,few_shot_1shot,few-shot k=1,CWE-369,9,5,4,0.5555555555555556
+codellama-7b,Code Llama 7B Instruct,few_shot_1shot,few-shot k=1,CWE-617,21,15,6,0.7142857142857143
+codellama-7b,Code Llama 7B Instruct,few_shot_1shot,few-shot k=1,CWE-664,30,20,10,0.6666666666666666
+codellama-7b,Code Llama 7B Instruct,few_shot_1shot,few-shot k=1,CWE-691,32,17,15,0.53125
+codellama-7b,Code Llama 7B Instruct,few_shot_1shot,few-shot k=1,CWE-707,17,14,3,0.8235294117647058
+codellama-7b,Code Llama 7B Instruct,few_shot_1shot,few-shot k=1,CWE-754,57,32,25,0.5614035087719298
+codellama-7b,Code Llama 7B Instruct,few_shot_1shot,few-shot k=1,CWE-787,67,44,23,0.6567164179104478
+codellama-7b,Code Llama 7B Instruct,few_shot_1shot,few-shot k=1,Others,24,18,6,0.75
+codellama-7b,Code Llama 7B Instruct,few_shot_3shot,few-shot k=3,CWE-119,90,44,46,0.4888888888888889
+codellama-7b,Code Llama 7B Instruct,few_shot_3shot,few-shot k=3,CWE-125,60,38,22,0.6333333333333333
+codellama-7b,Code Llama 7B Instruct,few_shot_3shot,few-shot k=3,CWE-190,32,11,21,0.34375
+codellama-7b,Code Llama 7B Instruct,few_shot_3shot,few-shot k=3,CWE-369,9,4,5,0.4444444444444444
+codellama-7b,Code Llama 7B Instruct,few_shot_3shot,few-shot k=3,CWE-617,21,9,12,0.42857142857142855
+codellama-7b,Code Llama 7B Instruct,few_shot_3shot,few-shot k=3,CWE-664,30,16,14,0.5333333333333333
+codellama-7b,Code Llama 7B Instruct,few_shot_3shot,few-shot k=3,CWE-691,32,18,14,0.5625
+codellama-7b,Code Llama 7B Instruct,few_shot_3shot,few-shot k=3,CWE-707,17,6,11,0.35294117647058826
+codellama-7b,Code Llama 7B Instruct,few_shot_3shot,few-shot k=3,CWE-754,57,33,24,0.5789473684210527
+codellama-7b,Code Llama 7B Instruct,few_shot_3shot,few-shot k=3,CWE-787,67,34,33,0.5074626865671642
+codellama-7b,Code Llama 7B Instruct,few_shot_3shot,few-shot k=3,Others,24,13,11,0.5416666666666666
+codellama-7b,Code Llama 7B Instruct,cot,CoT,CWE-119,90,64,26,0.7111111111111111
+codellama-7b,Code Llama 7B Instruct,cot,CoT,CWE-125,60,30,30,0.5
+codellama-7b,Code Llama 7B Instruct,cot,CoT,CWE-190,32,23,9,0.71875
+codellama-7b,Code Llama 7B Instruct,cot,CoT,CWE-369,9,5,4,0.5555555555555556
+codellama-7b,Code Llama 7B Instruct,cot,CoT,CWE-617,21,10,11,0.47619047619047616
+codellama-7b,Code Llama 7B Instruct,cot,CoT,CWE-664,30,18,12,0.6
+codellama-7b,Code Llama 7B Instruct,cot,CoT,CWE-691,32,11,21,0.34375
+codellama-7b,Code Llama 7B Instruct,cot,CoT,CWE-707,17,15,2,0.8823529411764706
+codellama-7b,Code Llama 7B Instruct,cot,CoT,CWE-754,57,25,32,0.43859649122807015
+codellama-7b,Code Llama 7B Instruct,cot,CoT,CWE-787,67,35,32,0.5223880597014925
+codellama-7b,Code Llama 7B Instruct,cot,CoT,Others,24,17,7,0.7083333333333334
+codellama-7b,Code Llama 7B Instruct,sft,SFT,CWE-119,90,43,47,0.4777777777777778
+codellama-7b,Code Llama 7B Instruct,sft,SFT,CWE-125,60,34,26,0.5666666666666667
+codellama-7b,Code Llama 7B Instruct,sft,SFT,CWE-190,32,16,16,0.5
+codellama-7b,Code Llama 7B Instruct,sft,SFT,CWE-369,9,7,2,0.7777777777777778
+codellama-7b,Code Llama 7B Instruct,sft,SFT,CWE-617,21,9,12,0.42857142857142855
+codellama-7b,Code Llama 7B Instruct,sft,SFT,CWE-664,30,16,14,0.5333333333333333
+codellama-7b,Code Llama 7B Instruct,sft,SFT,CWE-691,32,20,12,0.625
+codellama-7b,Code Llama 7B Instruct,sft,SFT,CWE-707,17,10,7,0.5882352941176471
+codellama-7b,Code Llama 7B Instruct,sft,SFT,CWE-754,57,25,32,0.43859649122807015
+codellama-7b,Code Llama 7B Instruct,sft,SFT,CWE-787,67,47,20,0.7014925373134329
+codellama-7b,Code Llama 7B Instruct,sft,SFT,Others,24,11,13,0.4583333333333333
+codellama-7b,Code Llama 7B Instruct,skill_v9,skill v9,CWE-119,90,39,51,0.43333333333333335
+codellama-7b,Code Llama 7B Instruct,skill_v9,skill v9,CWE-125,60,24,36,0.4
+codellama-7b,Code Llama 7B Instruct,skill_v9,skill v9,CWE-190,32,10,22,0.3125
+codellama-7b,Code Llama 7B Instruct,skill_v9,skill v9,CWE-369,9,3,6,0.3333333333333333
+codellama-7b,Code Llama 7B Instruct,skill_v9,skill v9,CWE-617,21,12,9,0.5714285714285714
+codellama-7b,Code Llama 7B Instruct,skill_v9,skill v9,CWE-664,30,12,18,0.4
+codellama-7b,Code Llama 7B Instruct,skill_v9,skill v9,CWE-691,32,7,25,0.21875
+codellama-7b,Code Llama 7B Instruct,skill_v9,skill v9,CWE-707,17,12,5,0.7058823529411765
+codellama-7b,Code Llama 7B Instruct,skill_v9,skill v9,CWE-754,57,30,27,0.5263157894736842
+codellama-7b,Code Llama 7B Instruct,skill_v9,skill v9,CWE-787,67,24,43,0.3582089552238806
+codellama-7b,Code Llama 7B Instruct,skill_v9,skill v9,Others,24,10,14,0.4166666666666667
+codellama-7b,Code Llama 7B Instruct,skill_v6,skill v6,CWE-119,90,39,51,0.43333333333333335
+codellama-7b,Code Llama 7B Instruct,skill_v6,skill v6,CWE-125,60,25,35,0.4166666666666667
+codellama-7b,Code Llama 7B Instruct,skill_v6,skill v6,CWE-190,32,9,23,0.28125
+codellama-7b,Code Llama 7B Instruct,skill_v6,skill v6,CWE-369,9,4,5,0.4444444444444444
+codellama-7b,Code Llama 7B Instruct,skill_v6,skill v6,CWE-617,21,12,9,0.5714285714285714
+codellama-7b,Code Llama 7B Instruct,skill_v6,skill v6,CWE-664,30,14,16,0.4666666666666667
+codellama-7b,Code Llama 7B Instruct,skill_v6,skill v6,CWE-691,32,8,24,0.25
+codellama-7b,Code Llama 7B Instruct,skill_v6,skill v6,CWE-707,17,13,4,0.7647058823529411
+codellama-7b,Code Llama 7B Instruct,skill_v6,skill v6,CWE-754,57,29,28,0.5087719298245614
+codellama-7b,Code Llama 7B Instruct,skill_v6,skill v6,CWE-787,67,23,44,0.34328358208955223
+codellama-7b,Code Llama 7B Instruct,skill_v6,skill v6,Others,24,14,10,0.5833333333333334

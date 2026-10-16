@@ -1,0 +1,17 @@
+model,model_display,strategy,max_seq,n_exceeding,share_exceeding,min_tokens,max_tokens,mean_tokens
+llama3-8b,Llama 3 8B Instruct,zero_shot,4096,2,0.0022935779816513763,316,4608,964.795871559633
+llama3-8b,Llama 3 8B Instruct,cot,4096,3,0.0034403669724770644,425,4717,1073.795871559633
+llama3-8b,Llama 3 8B Instruct,few_shot_1shot,8192,0,0.0,369,4661,1017.795871559633
+llama3-8b,Llama 3 8B Instruct,few_shot_3shot,8192,0,0.0,603,4895,1251.795871559633
+qwen2.5-7b,Qwen2.5 7B Instruct,zero_shot,4096,2,0.0022935779816513763,317,4653,972.9529816513761
+qwen2.5-7b,Qwen2.5 7B Instruct,cot,4096,4,0.0045871559633027525,426,4762,1081.9529816513761
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_1shot,8192,0,0.0,370,4706,1025.9529816513761
+qwen2.5-7b,Qwen2.5 7B Instruct,few_shot_3shot,8192,0,0.0,611,4947,1266.9529816513761
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,zero_shot,4096,11,0.01261467889908257,374,5473,1125.8199541284403
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,cot,4096,15,0.017201834862385322,525,5624,1276.8199541284403
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_1shot,8192,0,0.0,425,5524,1176.8199541284403
+deepseek-coder-6.7b,DeepSeek-Coder 6.7B Instruct,few_shot_3shot,8192,0,0.0,691,5790,1442.8199541284403
+codellama-7b,Code Llama 7B Instruct,zero_shot,4096,28,0.03211009174311927,395,6316,1312.1272935779816
+codellama-7b,Code Llama 7B Instruct,cot,4096,29,0.033256880733944956,531,6452,1448.1272935779816
+codellama-7b,Code Llama 7B Instruct,few_shot_1shot,8192,0,0.0,464,6385,1381.1272935779816
+codellama-7b,Code Llama 7B Instruct,few_shot_3shot,8192,0,0.0,785,6706,1702.1272935779816

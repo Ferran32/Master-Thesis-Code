@@ -1,0 +1,567 @@
+{
+  "n_configs": 28,
+  "all_match": true,
+  "ground_truth_identical_across_all_28": true,
+  "rows": [
+    {
+      "model": "llama3-8b",
+      "model_display": "Llama 3 8B Instruct",
+      "config": "zero_shot",
+      "config_display": "zero-shot",
+      "path": "results/base-eval/llama3-8b/zero_shot/base_eval/base_eval_llama3-8b_zero_shot/predictions.jsonl",
+      "n": 872,
+      "tp": 125,
+      "fp": 132,
+      "fn": 314,
+      "tn": 301,
+      "parse_failures": 2,
+      "expected": [
+        125,
+        132,
+        314,
+        301
+      ],
+      "match": true
+    },
+    {
+      "model": "llama3-8b",
+      "model_display": "Llama 3 8B Instruct",
+      "config": "few_shot_1shot",
+      "config_display": "few-shot k=1",
+      "path": "results/base-eval/llama3-8b/few_shot_1shot/base_eval/base_eval_llama3-8b_few_shot_1shot/predictions.jsonl",
+      "n": 872,
+      "tp": 86,
+      "fp": 78,
+      "fn": 353,
+      "tn": 355,
+      "parse_failures": 0,
+      "expected": [
+        86,
+        78,
+        353,
+        355
+      ],
+      "match": true
+    },
+    {
+      "model": "llama3-8b",
+      "model_display": "Llama 3 8B Instruct",
+      "config": "few_shot_3shot",
+      "config_display": "few-shot k=3",
+      "path": "results/base-eval/llama3-8b/few_shot_3shot/base_eval/base_eval_llama3-8b_few_shot_3shot/predictions.jsonl",
+      "n": 872,
+      "tp": 175,
+      "fp": 167,
+      "fn": 264,
+      "tn": 266,
+      "parse_failures": 0,
+      "expected": [
+        175,
+        167,
+        264,
+        266
+      ],
+      "match": true
+    },
+    {
+      "model": "llama3-8b",
+      "model_display": "Llama 3 8B Instruct",
+      "config": "cot",
+      "config_display": "CoT",
+      "path": "results/base-eval/llama3-8b/cot/base_eval/base_eval_llama3-8b_cot/predictions.jsonl",
+      "n": 872,
+      "tp": 151,
+      "fp": 144,
+      "fn": 288,
+      "tn": 289,
+      "parse_failures": 2,
+      "expected": [
+        151,
+        144,
+        288,
+        289
+      ],
+      "match": true
+    },
+    {
+      "model": "llama3-8b",
+      "model_display": "Llama 3 8B Instruct",
+      "config": "sft",
+      "config_display": "SFT",
+      "path": "results/sft/llama3-8b/predictions.jsonl",
+      "n": 872,
+      "tp": 130,
+      "fp": 116,
+      "fn": 309,
+      "tn": 317,
+      "parse_failures": 2,
+      "expected": [
+        130,
+        116,
+        309,
+        317
+      ],
+      "match": true
+    },
+    {
+      "model": "llama3-8b",
+      "model_display": "Llama 3 8B Instruct",
+      "config": "skill_v9",
+      "config_display": "skill v9",
+      "path": "results/skill/v9_test/llama3-8b/predictions.jsonl",
+      "n": 872,
+      "tp": 199,
+      "fp": 193,
+      "fn": 240,
+      "tn": 240,
+      "parse_failures": 0,
+      "expected": [
+        199,
+        193,
+        240,
+        240
+      ],
+      "match": true
+    },
+    {
+      "model": "llama3-8b",
+      "model_display": "Llama 3 8B Instruct",
+      "config": "skill_v6",
+      "config_display": "skill v6",
+      "path": "results/skill/v6_test/llama3-8b/predictions.jsonl",
+      "n": 872,
+      "tp": 200,
+      "fp": 198,
+      "fn": 239,
+      "tn": 235,
+      "parse_failures": 0,
+      "expected": [
+        200,
+        198,
+        239,
+        235
+      ],
+      "match": true
+    },
+    {
+      "model": "qwen2.5-7b",
+      "model_display": "Qwen2.5 7B Instruct",
+      "config": "zero_shot",
+      "config_display": "zero-shot",
+      "path": "results/base-eval/qwen2.5-7b/zero_shot/base_eval/base_eval_qwen2.5-7b_zero_shot/predictions.jsonl",
+      "n": 872,
+      "tp": 1,
+      "fp": 1,
+      "fn": 438,
+      "tn": 432,
+      "parse_failures": 2,
+      "expected": [
+        1,
+        1,
+        438,
+        432
+      ],
+      "match": true
+    },
+    {
+      "model": "qwen2.5-7b",
+      "model_display": "Qwen2.5 7B Instruct",
+      "config": "few_shot_1shot",
+      "config_display": "few-shot k=1",
+      "path": "results/base-eval/qwen2.5-7b/few_shot_1shot/base_eval/base_eval_qwen2.5-7b_few_shot_1shot/predictions.jsonl",
+      "n": 872,
+      "tp": 16,
+      "fp": 17,
+      "fn": 423,
+      "tn": 416,
+      "parse_failures": 0,
+      "expected": [
+        16,
+        17,
+        423,
+        416
+      ],
+      "match": true
+    },
+    {
+      "model": "qwen2.5-7b",
+      "model_display": "Qwen2.5 7B Instruct",
+      "config": "few_shot_3shot",
+      "config_display": "few-shot k=3",
+      "path": "results/base-eval/qwen2.5-7b/few_shot_3shot/base_eval/base_eval_qwen2.5-7b_few_shot_3shot/predictions.jsonl",
+      "n": 872,
+      "tp": 46,
+      "fp": 50,
+      "fn": 393,
+      "tn": 383,
+      "parse_failures": 0,
+      "expected": [
+        46,
+        50,
+        393,
+        383
+      ],
+      "match": true
+    },
+    {
+      "model": "qwen2.5-7b",
+      "model_display": "Qwen2.5 7B Instruct",
+      "config": "cot",
+      "config_display": "CoT",
+      "path": "results/base-eval/qwen2.5-7b/cot/base_eval/base_eval_qwen2.5-7b_cot/predictions.jsonl",
+      "n": 872,
+      "tp": 5,
+      "fp": 3,
+      "fn": 434,
+      "tn": 430,
+      "parse_failures": 2,
+      "expected": [
+        5,
+        3,
+        434,
+        430
+      ],
+      "match": true
+    },
+    {
+      "model": "qwen2.5-7b",
+      "model_display": "Qwen2.5 7B Instruct",
+      "config": "sft",
+      "config_display": "SFT",
+      "path": "results/sft/qwen2.5-7b/predictions.jsonl",
+      "n": 872,
+      "tp": 159,
+      "fp": 154,
+      "fn": 280,
+      "tn": 279,
+      "parse_failures": 53,
+      "expected": [
+        159,
+        154,
+        280,
+        279
+      ],
+      "match": true
+    },
+    {
+      "model": "qwen2.5-7b",
+      "model_display": "Qwen2.5 7B Instruct",
+      "config": "skill_v9",
+      "config_display": "skill v9",
+      "path": "results/skill/v9_test/qwen2.5-7b/predictions.jsonl",
+      "n": 872,
+      "tp": 15,
+      "fp": 16,
+      "fn": 424,
+      "tn": 417,
+      "parse_failures": 0,
+      "expected": [
+        15,
+        16,
+        424,
+        417
+      ],
+      "match": true
+    },
+    {
+      "model": "qwen2.5-7b",
+      "model_display": "Qwen2.5 7B Instruct",
+      "config": "skill_v6",
+      "config_display": "skill v6",
+      "path": "results/skill/v6_test/qwen2.5-7b/predictions.jsonl",
+      "n": 872,
+      "tp": 10,
+      "fp": 11,
+      "fn": 429,
+      "tn": 422,
+      "parse_failures": 0,
+      "expected": [
+        10,
+        11,
+        429,
+        422
+      ],
+      "match": true
+    },
+    {
+      "model": "deepseek-coder-6.7b",
+      "model_display": "DeepSeek-Coder 6.7B Instruct",
+      "config": "zero_shot",
+      "config_display": "zero-shot",
+      "path": "results/base-eval/deepseek-coder-6.7b/zero_shot/base_eval/base_eval_deepseek-coder-6.7b_zero_shot/predictions.jsonl",
+      "n": 872,
+      "tp": 57,
+      "fp": 48,
+      "fn": 382,
+      "tn": 385,
+      "parse_failures": 11,
+      "expected": [
+        57,
+        48,
+        382,
+        385
+      ],
+      "match": true
+    },
+    {
+      "model": "deepseek-coder-6.7b",
+      "model_display": "DeepSeek-Coder 6.7B Instruct",
+      "config": "few_shot_1shot",
+      "config_display": "few-shot k=1",
+      "path": "results/base-eval/deepseek-coder-6.7b/few_shot_1shot/base_eval/base_eval_deepseek-coder-6.7b_few_shot_1shot/predictions.jsonl",
+      "n": 872,
+      "tp": 294,
+      "fp": 277,
+      "fn": 145,
+      "tn": 156,
+      "parse_failures": 1,
+      "expected": [
+        294,
+        277,
+        145,
+        156
+      ],
+      "match": true
+    },
+    {
+      "model": "deepseek-coder-6.7b",
+      "model_display": "DeepSeek-Coder 6.7B Instruct",
+      "config": "few_shot_3shot",
+      "config_display": "few-shot k=3",
+      "path": "results/base-eval/deepseek-coder-6.7b/few_shot_3shot/base_eval/base_eval_deepseek-coder-6.7b_few_shot_3shot/predictions.jsonl",
+      "n": 872,
+      "tp": 246,
+      "fp": 239,
+      "fn": 193,
+      "tn": 194,
+      "parse_failures": 0,
+      "expected": [
+        246,
+        239,
+        193,
+        194
+      ],
+      "match": true
+    },
+    {
+      "model": "deepseek-coder-6.7b",
+      "model_display": "DeepSeek-Coder 6.7B Instruct",
+      "config": "cot",
+      "config_display": "CoT",
+      "path": "results/base-eval/deepseek-coder-6.7b/cot/base_eval/base_eval_deepseek-coder-6.7b_cot/predictions.jsonl",
+      "n": 872,
+      "tp": 76,
+      "fp": 83,
+      "fn": 363,
+      "tn": 350,
+      "parse_failures": 9,
+      "expected": [
+        76,
+        83,
+        363,
+        350
+      ],
+      "match": true
+    },
+    {
+      "model": "deepseek-coder-6.7b",
+      "model_display": "DeepSeek-Coder 6.7B Instruct",
+      "config": "sft",
+      "config_display": "SFT",
+      "path": "results/sft/deepseek-coder-6.7b/predictions.jsonl",
+      "n": 872,
+      "tp": 273,
+      "fp": 277,
+      "fn": 166,
+      "tn": 156,
+      "parse_failures": 8,
+      "expected": [
+        273,
+        277,
+        166,
+        156
+      ],
+      "match": true
+    },
+    {
+      "model": "deepseek-coder-6.7b",
+      "model_display": "DeepSeek-Coder 6.7B Instruct",
+      "config": "skill_v9",
+      "config_display": "skill v9",
+      "path": "results/skill/v9_test/deepseek-coder-6.7b/predictions.jsonl",
+      "n": 872,
+      "tp": 182,
+      "fp": 173,
+      "fn": 257,
+      "tn": 260,
+      "parse_failures": 2,
+      "expected": [
+        182,
+        173,
+        257,
+        260
+      ],
+      "match": true
+    },
+    {
+      "model": "deepseek-coder-6.7b",
+      "model_display": "DeepSeek-Coder 6.7B Instruct",
+      "config": "skill_v6",
+      "config_display": "skill v6",
+      "path": "results/skill/v6_test/deepseek-coder-6.7b/predictions.jsonl",
+      "n": 872,
+      "tp": 137,
+      "fp": 139,
+      "fn": 302,
+      "tn": 294,
+      "parse_failures": 0,
+      "expected": [
+        137,
+        139,
+        302,
+        294
+      ],
+      "match": true
+    },
+    {
+      "model": "codellama-7b",
+      "model_display": "Code Llama 7B Instruct",
+      "config": "zero_shot",
+      "config_display": "zero-shot",
+      "path": "results/base-eval/codellama-7b/zero_shot/base_eval/base_eval_codellama-7b_zero_shot/predictions.jsonl",
+      "n": 872,
+      "tp": 224,
+      "fp": 206,
+      "fn": 215,
+      "tn": 227,
+      "parse_failures": 28,
+      "expected": [
+        224,
+        206,
+        215,
+        227
+      ],
+      "match": true
+    },
+    {
+      "model": "codellama-7b",
+      "model_display": "Code Llama 7B Instruct",
+      "config": "few_shot_1shot",
+      "config_display": "few-shot k=1",
+      "path": "results/base-eval/codellama-7b/few_shot_1shot/base_eval/base_eval_codellama-7b_few_shot_1shot/predictions.jsonl",
+      "n": 872,
+      "tp": 287,
+      "fp": 293,
+      "fn": 152,
+      "tn": 140,
+      "parse_failures": 71,
+      "expected": [
+        287,
+        293,
+        152,
+        140
+      ],
+      "match": true
+    },
+    {
+      "model": "codellama-7b",
+      "model_display": "Code Llama 7B Instruct",
+      "config": "few_shot_3shot",
+      "config_display": "few-shot k=3",
+      "path": "results/base-eval/codellama-7b/few_shot_3shot/base_eval/base_eval_codellama-7b_few_shot_3shot/predictions.jsonl",
+      "n": 872,
+      "tp": 226,
+      "fp": 221,
+      "fn": 213,
+      "tn": 212,
+      "parse_failures": 383,
+      "expected": [
+        226,
+        221,
+        213,
+        212
+      ],
+      "match": true
+    },
+    {
+      "model": "codellama-7b",
+      "model_display": "Code Llama 7B Instruct",
+      "config": "cot",
+      "config_display": "CoT",
+      "path": "results/base-eval/codellama-7b/cot/base_eval/base_eval_codellama-7b_cot/predictions.jsonl",
+      "n": 872,
+      "tp": 253,
+      "fp": 242,
+      "fn": 186,
+      "tn": 191,
+      "parse_failures": 28,
+      "expected": [
+        253,
+        242,
+        186,
+        191
+      ],
+      "match": true
+    },
+    {
+      "model": "codellama-7b",
+      "model_display": "Code Llama 7B Instruct",
+      "config": "sft",
+      "config_display": "SFT",
+      "path": "results/sft/codellama-7b/predictions.jsonl",
+      "n": 872,
+      "tp": 238,
+      "fp": 231,
+      "fn": 201,
+      "tn": 202,
+      "parse_failures": 49,
+      "expected": [
+        238,
+        231,
+        201,
+        202
+      ],
+      "match": true
+    },
+    {
+      "model": "codellama-7b",
+      "model_display": "Code Llama 7B Instruct",
+      "config": "skill_v9",
+      "config_display": "skill v9",
+      "path": "results/skill/v9_test/codellama-7b/predictions.jsonl",
+      "n": 872,
+      "tp": 183,
+      "fp": 175,
+      "fn": 256,
+      "tn": 258,
+      "parse_failures": 505,
+      "expected": [
+        183,
+        175,
+        256,
+        258
+      ],
+      "match": true
+    },
+    {
+      "model": "codellama-7b",
+      "model_display": "Code Llama 7B Instruct",
+      "config": "skill_v6",
+      "config_display": "skill v6",
+      "path": "results/skill/v6_test/codellama-7b/predictions.jsonl",
+      "n": 872,
+      "tp": 190,
+      "fp": 169,
+      "fn": 249,
+      "tn": 264,
+      "parse_failures": 512,
+      "expected": [
+        190,
+        169,
+        249,
+        264
+      ],
+      "match": true
+    }
+  ]
+}
